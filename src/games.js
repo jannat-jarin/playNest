@@ -1,0 +1,12 @@
+export const games = [
+  { id: 'neon-drift', title: 'Neon Drift', category: 'Racing', tag: 'Featured', description: 'Thread your way through a glowing midnight circuit where every corner asks for one more perfect drift.', controls: 'Arrow keys or WASD to steer. Space to boost.', art: '/artwork/neon-drift.svg', tone: 'violet', isNew: true },
+  { id: 'orbit-odyssey', title: 'Orbit Odyssey', category: 'Adventure', tag: 'Explore', description: 'Chart a course through mysterious planets, collect stardust and find the way home.', controls: 'Arrow keys to navigate. Enter to interact.', art: '/artwork/orbit-odyssey.svg', tone: 'blue', isNew: true },
+  { id: 'pixel-punch', title: 'Pixel Punch', category: 'Action', tag: 'Fast-paced', description: 'A quick-fire arena brawler with tiny heroes and oversized moves.', controls: 'A / D to move. J to punch. K to jump.', art: '/artwork/pixel-punch.svg', tone: 'orange' },
+  { id: 'mind-maze', title: 'Mind Maze', category: 'Brain Training', tag: 'Think fast', description: 'Rotate paths, discover patterns and guide the spark through clever little mazes.', controls: 'Click tiles to rotate them. R to restart.', art: '/artwork/mind-maze.svg', tone: 'lime', isNew: true },
+  { id: 'gem-grove', title: 'Gem Grove', category: 'Puzzle', tag: 'Match & relax', description: 'Match shimmering forest gems and bring a sleepy magical grove back to life.', controls: 'Click and drag adjacent gems to swap.', art: '/artwork/gem-grove.svg', tone: 'pink' },
+  { id: 'sky-hop', title: 'Sky Hop', category: 'Arcade', tag: 'One more run', description: 'Bounce between cloud islands, dodge the storm and chase a new high score.', controls: 'Left / Right arrows to move. Space to hop.', art: '/artwork/sky-hop.svg', tone: 'cyan' },
+  { id: 'rocket-rally', title: 'Rocket Rally', category: 'Racing', tag: 'Turbo', description: 'A friendly rocket race across a miniature solar system full of shortcuts.', controls: 'Arrow keys to steer. Space for turbo.', art: '/artwork/rocket-rally.svg', tone: 'red', isNew: true },
+  { id: 'shadow-steps', title: 'Shadow Steps', category: 'Adventure', tag: 'Mystery', description: 'Sneak through a moonlit tower and outsmart the shadows guarding its secrets.', controls: 'Arrow keys to move. Shift to sneak.', art: '/artwork/shadow-steps.svg', tone: 'purple' },
+]
+
+export const categories = ['Puzzle', 'Action', 'Racing', 'Arcade', 'Adventure', 'Brain Training']
